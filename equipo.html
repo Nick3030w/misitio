@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo</title>
+    <!-- Vincular Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #fff;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        /* Menú (mismo menú que en la página de inicio) */
+        #menu {
+            background-color: #58B2AF;
+            padding: 10px;
+        }
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        /* Cards para el equipo */
+        .card {
+            border-radius: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .card img {
+            border-radius: 50%;
+            max-width: 150px;
+            max-height: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú (mismo menú que en la página de inicio) -->
+    <div id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="noticias.html">Noticias</a>
+    </div>
+
+    <!-- Cards del equipo -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/foto1.jpg" alt="Miembro 1">
+                    <h3>Nombre del Miembro 1</h3>
+                    <p>Descripción del perfil del Miembro 1.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/foto2.jpg" alt="Miembro 2">
+                    <h3>Nombre del Miembro 2</h3>
+                    <p>Descripción del perfil del Miembro 2.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/foto3.jpg" alt="Miembro 3">
+                    <h3>Nombre del Miembro 3</h3>
+                    <p>Descripción del perfil del Miembro 3.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/foto4.jpg" alt="Miembro 4">
+                    <h3>Nombre del Miembro 4</h3>
+                    <p>Descripción del perfil del Miembro 4.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/foto5.jpg" alt="Miembro 5">
+                    <h3>Nombre del Miembro 5</h3>
+                    <p>Descripción del perfil del Miembro 5.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vincular Bootstrap y scripts de Bootstrap desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

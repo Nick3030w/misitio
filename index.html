@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <!-- Vincular Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #fff;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        /* Menú */
+        #menu {
+            background-color: #58B2AF;
+            padding: 10px;
+        }
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        /* Jumbotron */
+        .jumbotron {
+            background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg');
+            background-size: cover;
+            background-opacity: 0.6;
+            text-align: center;
+            padding: 150px 0;
+        }
+        .jumbotron h1 {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            display: inline-block;
+        }
+        /* Contenido principal */
+        #contenido {
+            background-color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú -->
+    <div id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="noticias.html">Noticias</a>
+    </div>
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1>¡Bienvenido a nuestro sitio web!</h1>
+    </div>
+    
+    <!-- Contenido principal -->
+    <div id="contenido">
+        <h2>¿Quiénes somos?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo sit amet dolor ultrices dignissim.</p>
+        <p>Phasellus sed quam quis nunc fermentum bibendum. Duis nec semper lectus.</p>
+        <p>Integer ullamcorper, libero a auctor interdum, libero justo tincidunt nulla, non iaculis metus libero id arcu.</p>
+        
+        <!-- Video de YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K5pkkuiyRzk" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Vincular Bootstrap y scripts de Bootstrap desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
